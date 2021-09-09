@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0, minimum-sclae=1.0, maximum-scale=1.0">
+    <meta charset = "UTF-8">
+    <title> Personal Portfolio </title>
+    <link rel = "stylesheet" href = "style.css">
+  </head>
+  <body>
+    <header>
+      <a href="#" class ="logo"> Portfolio</a>
+      <div class="toggle" onclick = "toggleMenu();"></div>
+      <ul class="menu">
+        <li><a href="#home" onclick = "toggleMenu();">Home</a></li>
+        <li><a href="#about" onclick = "toggleMenu();">About</a></li>
+        <li><a href="#research" onclick = "toggleMenu();">Research</a></li>
+        <li><a href="#documents" onclick = "toggleMenu();">Documents</a></li>
+        <li><a href="#workexp" onclick = "toggleMenu();">Work Experience</a></li>
+        <li><a href="#contact" onclick = "toggleMenu();">Contact</a></li>
+      </ul>
+    </header>
+    <section class="banner" id = "home">
+      <div class="textBx">
+        <h2> Hello, I'm <br> <span> Sai Madhav.</span></h2>
+        <h3> I'm a Front End Developer.</h3>
+        <a href= "#about" class="btn">About Me</a>
+      </div>
+    </section>
+    <section class="about" id = "about">
+      <div class="heading">
+        <h2>About Me</h2>
+      </div>
+      <div class="content">
+        <div class="contentBx w50">
+          <h3>I'm  a Front End Web Developer.</h3>
+          <p>Passionate Master's student, capable of applying industry knowledge to theoretical subjects and vice-versa. Interested in Analytics and Development. I can able to analyze and implement advanced algorithms.<br>
+            <br>Value Offered: Big Data Analytics, Data Mining, Data Modelling, Analysis Tools such as SQL, Artificial Intelligence, Machine Learning.</p>
+        </div>
+        <div class="w50">
+          <img src="img1.jpeg" class="img">
+        </div>
+      </div>
+    </section>
+    <section class="Research" id = "research">
+        <div class="heading white">
+          <h2>Research Projects</h2>
+          <p>The Master's Projects are related to Website Designs created on Front-End Technologies such as HTML, CSS, Javascript, ReactJS and Back-End Technologies such as NodeJS, Django. The projects varies on their application capabilities on various methods used in building up the websites. The algorithms used in projects relates to the overall knowledge of Java based algorithm analysis. The Experience with research oriented outcome is completely satisfied on two major projects one relates to Computer Security and one is the Major Project to be done in Master's Degree.</p>
+        </div>
+        <div class="content">
+          <div class="ResearchBx">
+            <img src="icon1.jpeg">
+            <h2>Covid-19 Cases Predictor</h2>
+            <p>Build a website on COVID-19 cases prediction using prophet algorithm with UI based on HTML, CSS, JavaScript on front-end and Django in back-end. Achieved an accuracy of 95% + for 80% test split data from the dataset downloaded from Covid-Tracking Project conducted by US Officials</p>
+          </div>
+          <div class="ResearchBx">
+            <img src="icon2.jpeg">
+            <h2>Client Puzzles and DDoS attack</h2>
+            <p>Built a website for generation of client puzzles to increase the accuracy for resolution of DDOS attack from 85 percent to 91 percent.Designed website consists of Naive-Bayes Algorithm for detecting the accuracy with 85%. Developed the application with an extra layer of security to get the DDOS prediction from the IP by 6 percent increase by eliminating the False Negative Rates.</p>
+          </div>
+          <div class="ResearchBx">
+            <img src="icon3.jpeg">
+            <h2>Credit Card Fraud Detector</h2>
+            <p>Developed an algorithm for Credit Card Fraud Detection using Naïve Bayes and Random Forest approaches. The imbalanced dataset is made balanced by randomly choosing the 50-50 split of data from given fraud cases versus genuine transaction. The Naïve Bayes resulted in 90.46% accuracy for the split test data of 60%. The Random Forest resulted in 99% accuracy for the overall imbalanced dataset.</p>
+          </div>
+          <div class="ResearchBx">
+            <img src="icon4.jpeg">
+            <h2>University Database with SQL</h2>
+            <p>Data Analysis done on University Database with technologies embedded in SQL. Used triggers, functions, and packages for analysing the university database.</p>
+          </div>
+        </div>
+    </section>
+    <section class="Documents" id = "documents">
+      <div class="heading">
+        <h2>Documents</h2>
+        <p>Attached are the updated documents of the portfolio till date</p>
+      </div>
+      <div class="content">
+        <div class="DocumentsBx">
+          <img src = "product1.jpeg">
+          <a href="Resume.pdf" target = "_blank">Resume</a>
+        </div>
+        <div class="DocumentsBx">
+          <img src = "product2.jpeg">
+            <a href="CV.pdf" target = "_blank">Cover Letter</a>
+        </div>
+        <div class="DocumentsBx">
+          <img src = "product3.jpeg">
+            <a href="AWS.pdf" target = "_blank">Certificate</a>
+        </div>
+      </div>
+      <div class = "heading">
+        <a href="https://kvsaimadhav.github.io/Portfolio-2021/" class="btn"> View More</a>
+      </div>
+    </section>
+    <section class="WorkExp" id = "workexp">
+      <div class="heading">
+        <h2>Work Experience</h2>
+        <p>Dedicated and efficient full stack developer with 3+ years’ experience in application layers, presentation layers, and databases. Certified in both Front-end and Back-end technologies.</p>
+      </div>
+      <div class="content">
+        <div class="WorkExpBx">
+          <p>Improved 5% performance of students by organizing content of courses such as Principles of Computer Programming and Data Structures & Algorithms. Conducted Information Sessions for 100 Undergraduate Students of Department of Computer Science. Graded Homework, Labs and Quizzes for 100 Undergraduate Student</p>
+          <h3>Central Michigan University <br><span>Graduate Assistant</span></h3>
+        </div>
+        <div class="WorkExpBx">
+          <p>Worked on Front-End Technologies such as ReactJS, HTML, CSS, Javascript and Back-End Technologies such as NodeJS, Django. Certified AWS Developer Associate through the knowledge seeked in India from Industrial Experience.</p>
+          <h3>Trigent (India) <br><span>Full Stack Web Developer</span></h3>
+        </div>
+      </div>
+    </section>
+    <section class="Contact" id = "contact">
+      <div class="heading white">
+        <h2>Contact Us</h2>
+        <p>Please Enter your details for further talking about the job opportunity you have.</p>
+      </div>
+      <div class="content">
+        <div class="contactInfo">
+          <h3>Contact Info</h3>
+          <div class="contactInfoBx">
+            <div class="box">
+              <div class="text">
+                <h3>Address</h3>
+                <p>1825 South Crawford Street,<br> Mount Pleasant, Michigan <br> 48858</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>Phone</h3>
+                <p>313-438-8709</p>
+              </div>
+            </div>
+            <div class="box">
+              <div class="text">
+                <h3>Email</h3>
+                <p>venkatasaimadhavkaza@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="formBx">
+          <form>
+            <h3>Message Me</h3>
+            <input type="text" name="" placeholder="Full Name">
+            <input type="email" name="" placeholder="Email">
+            <textarea placeholder="Your Message"></textarea>
+            <input type="submit" value="Send">
+          </form>
+        </div>
+      </div>
+    </section>
+    <script type="text/javascript">
+      window.addEventListener('scroll',function(){
+        var header = document.querySelector('header');
+        header.classList.toggle('sticky',window.scrollY > 0);
+      });
+
+      function toggleMenu(){
+        var menuToggle = document.querySelector('.toggle');
+        var menu = document.querySelector('.menu');
+        menuToggle.classList.toggle('active');
+        menu.classList.toggle('active');
+      }
+    </script>
+  </body>
+</html>
